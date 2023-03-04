@@ -102,8 +102,10 @@ span {
     height: 394px;
     margin: 0 auto;
     padding: 63px 45px;
-    display: flex;
-    gap: 67px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*display: flex;*/
+    /*gap: 67px;*/
     border: 1px solid #D8E3FE;
 }
 
@@ -115,12 +117,12 @@ span {
 }
 
 .blog-img.firtd {
-    grid-column-start: 2; 
+    grid-column-start: 2;
 }
 
 .blog-text {
-    width: 408px;
-    
+    /*width: 408px;*/
+    text-align: justify;
 }
 
 .blog-text-title {
@@ -147,7 +149,7 @@ span {
 .blog-links {
     display: flex;
     align-items: center;
-    gap: 28px;  
+    gap: 28px;
 }
 
 .blog-link.left {
